@@ -1,0 +1,90 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Sriracha', cursive;
+
+}
+header {
+    /* background-color: aquamarine; */
+    /* height: 70px; */
+    /* padding: 25px; */
+    /* padding block คือ บน กับ ล่าง
+    padding inline คือ ซ้าย กับ ขวา */
+    /* padding-block: 25px;
+    padding-inline: 10px; */
+    background-image: url("./awesome-liquors-and-beverages-on-bar-shelves-website-header.jpg");
+    background-size: cover;
+    min-height: 250px;
+    /* overflow: hidden; */
+}
+nav {
+    background-color: whitesmoke;
+    padding: 8px;
+    /* flex คือ เอามาเรียงกัน */
+    display: flex;  
+    justify-content: space-between ;
+    gap: 10px;
+    /* nav > *:nth-child(2) {
+        color: blue;
+    } */
+    /* ( > * เอาไว้เลือกลูกทุกตัวของตัวนั้นๆ ถ้าไม่ใส่ > จะรวมหลานด้วย ) */
+    /* nav > * {
+        color: blue;
+        display: inline-block;
+        background-color: aliceblue;
+        padding: 10px 16px;
+    } */
+
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+.prev {
+    font-size: 40px;
+}
+.button-group button {
+    border: 0.5px solid;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+.button-group .lang {
+    border:none;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.welcome {
+    color: cornflowerblue;
+    font-size: 40px;
+    text-align: center;
+    /* background-color: bisque; */
+    padding-top: 20px;
+    /* ใช้ margin แทน padding ก็ได้ */
+}
+.select-header {
+    font-size: 50px;
+    text-align: center;
+    margin-top:12px;
+}
+.items-row {
+    /* background-color: blanchedalmond; */
+    /* border: 1px dashed lime; */
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.item {
+    background-color: rgb(236, 190, 76);
+    padding: 40px 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.topup  {
+    width: 20px;
+}
